@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import { removeFeature } from "../actions/actions";
+import { removeFeature } from "../actions";
 
 class AddedFeature extends React.Component {
   state = {

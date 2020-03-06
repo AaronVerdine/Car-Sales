@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import { buyItem } from "../actions/actions";
+import { buyItem } from "../actions/index";
 
 class AdditionalFeature extends React.Component {
   state = {
